@@ -1,0 +1,33 @@
+- Block Element:
++ div, h1...h6, hr, li, main, nav, ol, p, pre, section, table, ul, video, ...
+
+- Inline Element:
++ a, b , br, button, i img, input, label, q, script, select, span, strong, sub, sup, textare, ...
+
+
+- Lấy theme trên themeforest
+- image sample: picsum
+
+-------------------------------------------------------------------------
+*** Task 2:
+- BS document:
++ Component
++ Utilities
++ ...
+
+-------------------------------------------------------------------------
+*** Task 3:
+- test code trên các thiết bị thật khác nhau (live server).
+- bedug android chrome on pc
+
+
+-------------------------------------------------------------------------
+*** Task 4:
+- Kiếm 1 page template rồi tự làm theo (9th có 2 cái) or maybe using theme in "themeforest.net"
+- Đối vs theme forest thì tìm kiếm categories rồi làm (VD: booking, eat, đặt vé phim, vé máy bay, ...) --> Live preview để xem.
+
+
+-------------------------------------------------------------------------
+- Tomorrow:
++ Những cái main when learn BS4.
++ Read document BS.
