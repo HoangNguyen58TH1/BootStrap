@@ -31,3 +31,195 @@
 - Tomorrow:
 + Những cái main when learn BS4.
 + Read document BS.
+
+-------------------------------------------------------------------------
+
+----------------- Layout Grid:
+- Container - grid system - flexible - utility
+- If using col then BS will auto Equally divided
+- wider: rộng hơn
+- justify-content-md-center: canh giữa md
+- col-md-auto: width sẽ auto co giãn hợp vs width của content. (auto)
+- row row-cols-2
+- Alignment: căn chỉnh
+
+- Gutter:
++ container px-lg-5
++ row mx-lg-n5
++ px-lg-5
++ ...
+
+- Vertical alignment:
++ row align-items-start
++ row align-items-center
++ row align-items-end
+
++ col align-self-start
++ col align-self-center
++ col align-self-end
+
+- Horizontal alignment
++ row justify-content-start
++ row justify-content-center
++ row justify-content-end
++ row justify-content-around
++ row justify-content-between
+
+- no-gutters
++ row no-gutters
+
+- Ngắt các cột thành 1 dòng mới trong flexbox : thêm 1 phần tử có width: 100% ở bất cứ nơi nào bạn muốn chuyển các cột của mình thành một dòng mới.
++ <!-- Force next columns to break to new line -->
++ <div class="w-100"></div>
++ w-100
+
++ w-100 d-none d-md-block --> w-100 chỉ apply từ md trở lên. Còn lại dispaly none.
++ default: w-100 always apply. --> Now, i want only apply after md --> d-none --> d-md-block.
+
+- Reordering: sx lại
++ Order classes:
+. col 
+. col order-12
+. col order-1
+--> 1 - 3 -2
+
+.col order-last
+.col 
+.col order-first
+--> 3 - 2 - 1
+
+- Offsetting columns: các cột bù trừ
++ Offset classes --> di chuyển các cột qua bên phải của offset.
+. col-md-4
+. col-md-4 offset-md-4
+--> 1 - ... - 2
+
++ Maybe using offset with breakpoints
+
+- utilities: tiện ích
+
+- Margin utilities
++ col-md-4 ml-auto
++ col-md-3 ml-md-auto
++ col-auto mr-auto
+
+- Nesting
+
+- Sử dụng các biến và bản đồ Sass có thể  custom hoàn toàn gird default.
+
+- Toggle:  chuyển đổi
+- visibility: hiển thị
+
+
+-------------------------------------- Content
+- Typography:
++ <mark></mark>: highlight
++ <del></del>: delete
++ <s>: ko chính xác nữa
++ <ins>: phần bổ sung for docuemnt
++ <u>
++ <small>
++ <strong> = <b>
++ <em> = <i>
+
+- Img 
++ <img src="..." class="img-fluid" alt="Responsive image">
++ class="img-thumbnail"
+
++ <img src="..." class="rounded float-left" alt="...">
++ <img src="..." class="rounded float-right" alt="...">
+
++ <img src="..." class="rounded mx-auto d-block" alt="..."> =  <img src="..." class="rounded" alt="...">
+
+- Table:
++ Using BS: <table class="table">
+    table.table
+        thead
+            tr
+                th.../th
+                th.../th
+                th.../th
+            /tr    
+        /thead
+
+        tbody
+            tr
+                th.../th
+                td.../td
+                td.../td
+            /tr    
+            tr
+                th.../th
+                td.../td
+                td.../td
+            /tr  
+            ...  
+        /tbody
+    /table
+
++ <table class="table table-dark">
++ <thead class="thead-dark">
++ <thead class="thead-light">
++ Striped rows: <table class="table table-striped">
++ <table class="table table-striped table-dark">
+
++ Bordered table:
+    <table class="table table-bordered">
+    <table class="table table-bordered table-dark">
+
++ Borderless table:
+    <table class="table table-borderless">
+    <table class="table table-borderless table-dark">
+
++ Hoverable rows:
+    <table class="table table-hover">
+    <table class="table table-hover table-dark">
+
++ Small table:
+    <table class="table table-sm">
+    <table class="table table-sm table-dark">
+
++ Contextual classes: "color for row"
+    <!-- On rows -->
+    <tr class="table-active">...</tr>
+
+    <!-- On cells (`td` or `th`) -->
+    <td class="table-active">...</td>
+
++ Captions:
+    <table class="table">
+        <caption>List of users</caption>
+        <thead>
+        ...
+
++ Always responsive:
+    <div class="table-responsive"> --> horizontal
+
++ Breakpoint specific:
+    <div class="table-responsive-sm">
+
+- specific: riêng, riêng biệt.
+
+- Figures: chú thích, mô phỏng.
++ VD:   <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+or:             <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+
+---------------Component
+Start: Alert --> Input Group
+- Alert:
+- Badges: danh hiệu
+- .sr-only (sr = screen read) --> only using for screen read, user no read.
+- flush: tuôn ra
+-   <div class="card w-75">
+    <div class="card w-50">
+
+- Navigation: dẫn đường ...
+- Carousel: băng chuyền
+- Collapse: sự sụp đổ
+- Dropdowns
+- Form
+    ...
+- List group
