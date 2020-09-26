@@ -1,0 +1,80 @@
+- borders:
++ rounded: làm tròn
++ pill: hình viên thuôc ớ. :>
+
+- colors:
++ muted: mờ, tắt tiếng.
++ .text-black-50: làm opacity giảm 50%
++ .bg-dark
+
+- Display property
++ notation: ký hiệu
++ d-{breakpoint}-{value}
+    breakpoint: xs, sm, md, lg, xl --> If none breakpoint then auto for "xs"
+    value: * none
+            * inline
+            * inline-block
+            * block
+            * table
+            * table-cell
+            * table-row
+            * flex
+            * inline-flex
+
+- Flex
++ Direction: phương hướng
++ flexible: linh hoạt
++ Grow and shrink: lớn lên và co lại
++ mr-auto --> đẩy những element còn lại trong d-flex qua bên phải            
++ ml-auto --> đẩy những element còn lại trong d-flex qua bên trái
++ tương tự có: mb-auto && mt-auto
++ wrap: bọc lại
+
+- replacement: thay thế
+
+- Overflow: tràn ra
+
+- Position: chức vụ, vị trí, chổ
++ common: chung
++ position:
+    position-static
+    position-relative
+    position-absolute
+    position-fixed
+    position-sticky
+
+- Shadows: bóng đổ
++ Regular: đều đặn
+
+- Sizing
++ min-vw-100: Min-width 100vw (vw: viewport width)
++ min-vh-100: Min-height 100vh
++ vw-100: Width 100vw
++ vh-100: Height 100vw
++ mw-100: max width
++ mh-100: max height
+
+- Spacing
++ blank: chổ trống
++ suggest: đề xuất
++ Horizontal centering: mx-auto
++ Vertical centering: my-auto
+
++ 1 inch = 2,54 cm
++ CSS using 2 unit: absolute(tuyệt đối) && relative(tương đối)
+    absolute:
+        cm, px,...
+    relative:
+        %, em(emphemeral unit), rem(root emphemeral unit)
+        * Quy đổi em(emphemeral unit) --> px phục thuộc vào font-size của phần tử hiện tại
+        * Quy đổi rem(root emphemeral unit) --> px phục thuộc vào font-size của phần tử  gốc
+        * font-size: 10px --> 1 em = 1 rem = 10px;
+
+- Stretched: kéo dài, căng ra, duỗi ra.
+
+- Text:
++ lowercase
++ uppercase
++ capitalize: viết hoa chữ cái đầu
++ decoration: trang trí
++ visibility: hiển thị

@@ -1,0 +1,10 @@
+body{
+    font-size: 20px;
+}
+#div2{
+    font-size: 1em;
+}
+#div3{
+    font-size: 1rem;
+    height: 200px;
+}
