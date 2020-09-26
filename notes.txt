@@ -223,3 +223,36 @@ Start: Alert --> Input Group
 - Form
     ...
 - List group
+
+- Modal:
++ trigger: kích hoạt
++ dialog: hộp thoại
++ labelledby: dán nhãn
+
+- Nav
++ pill: viên thuốc
++ If align vertical nav --> using ul>li || nav > a
++ justified: chính đang --> làm cho các element có width bằng nhau
+
+- Navbar
++ collapse: sự sụp đổ
++ brand: nhãn hiệu
++ mix: trộn
++ match: kết hợp
++ connect id && data-target
+
+- Popovers: when click show content
+
+- progress: phát triển, sự tiến tới
+- Scrollspy
+
+- spinner: con quay
++ grow: lớn lên
++ role: vai trò
+
+- toasts: như mấy cái thông báo khi có tin nhắn hay bình luận trên fb vậy ớ.
+
+- Tooltips: công cụ chú giải
+--> when hover then tooltips will show content.
++ placement: vị trí
++ 
